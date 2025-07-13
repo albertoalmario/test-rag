@@ -38,8 +38,7 @@ def setup_qa_system(file_path):
 
 
 if __name__ == "__main__":
-    file_path = "data/The Sparkling Circuit Quest.pdf"
-    # file_path = "data/file_example_for_load_and_load_split.pdf"
+    file_path = "files_to_process/sample-report-with-charts-tables-and-images.pdf"
     qa_chain = setup_qa_system(file_path)
 
     while True:
